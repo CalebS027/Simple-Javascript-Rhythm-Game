@@ -1,0 +1,83 @@
+#keys {
+ width: 50;
+ text-align: center;
+}
+#keys > div {
+ width: calc(50 / 4);
+ display: inline-block;
+ vertical-align: top;
+ border: 1px solid red;
+ text-align: center;
+ margin: 2%;
+ padding: 20px;
+}
+
+
+.square{
+  width: 100px;
+  height: 100px;
+  background: red;
+  text-align: center;
+  vertical-align: central;
+  line-height: 100px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.square2{
+  width: 100px;
+  height: 100px;
+  background: red;
+  text-align: center;
+  vertical-align: central;
+  line-height: 100px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.square3{
+  width: 100px;
+  height: 100px;
+  background: red;
+  text-align: center;
+  vertical-align: central;
+  line-height: 100px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.lane{
+  width: 600px;
+  height: 222px;
+  background-color: rgba(129, 129, 129, 0.6);
+  transform: rotate(90deg) scale(0.64);
+}
+.lockPick{
+  width: 15px;
+  height: 222px;
+  background: blue;
+  opacity: 1;
+}
+.lockHack{
+  width: 15px;
+  height: 222px;
+  background-color: rgba(129, 129, 129, 0.86);
+}
+
+.note{
+  position: absolute;
+  width: 15px;
+  height: 221px;
+  top: 0px;
+  left: -2px;
+  background-color: red;
+  animation: linear moveDown;
+}
+
+.track-container {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+@keyframes moveDown {
+   0% { left: -1.5rem; }
+  98% { left: 98%; opacity: 1; }
+  100% { left: 100%; opacity: 0; }
+}
