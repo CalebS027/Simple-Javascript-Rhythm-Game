@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="CSS/style.css" />
-		<title>Rhythem Game Alpha Build</title>
+		<title>Rhythem Game (Alpha)</title>
 	</head>
 	<body>
 	   <audio id="audio">
-       <source src="media/song.mp3" type="audio/mpeg">
+       <source src="media/song(ILoveYouIHateYou).mp3" type="audio/mpeg">
        Your browser does not support the audio element.
        </audio>
        
@@ -30,9 +30,33 @@
       </div>
 
 
-     <div id="LockScore" style="position:relative; left:100px; top:50px;"></div>
+     <div id="LockScore" style="position:relative; left:330px; top:50px;"></div>
+     <div id="combo" style="position:relative; left:330px; top:47px;">Combo:</div>
+     <div id="maxCombo" style="position:relative; left:330px; top:44px;">Max Combo:</div>
 
-      <script src="Scripts/song.js"></script>
+
+    <select id="songPicker" style="position:relative; left:330px; top:43px;">
+      <option src="media/song(BadPiggy).mp3">Bad Piggies</option>
+      <option src="media/song(Portland).mp3">Portland</option>
+      <option src="media/song(ILoveYouIHateYou).mp3">ILoveYouIHateYou</option>
+      <option src="media/song(crystallized).mp3">Crystallized</option>
+      <option src="media/song(RockWithYouPt2).mp3">Rock With You Pt 2</option>
+      <option src="media/song(NoTimeToExplain).mp3">No Time To Explain</option>
+      <option src="media/song(GoodMorningVietnam).mp3">Good Morning Vietnam</option>
+    </select>
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdn2ac-R6MKOF-C7JpCEhvDgibIjrK--XULEwXJMBi15-4ubA/viewform?usp=sf_link">
+      Feedback
+    </a>
+
+
+      <script src="Scripts/song(IloveyouIhateyou).js"></script>
+      <script src="Scripts/song(godscountry).js"></script>
+      <script src="Scripts/song(Portland).js"></script>
+      <script src="Scripts/song(crystallized).js"></script>
+      <script src="Scripts/song(BadPiggies).js"></script>
+      <script src="Scripts/song(RockWithYouPt2).js"></script>
+      <script src="Scripts/song(NoTimeToExplain).js"></script>
+      <script src="Scripts/song(GoodMorningVietnam).js"></script>
       <script src="Scripts/script.js"></script>
 	</body>
 </html>
