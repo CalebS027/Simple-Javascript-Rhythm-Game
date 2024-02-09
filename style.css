@@ -81,3 +81,9 @@
   98% { left: 98%; opacity: 1; }
   100% { left: 100%; opacity: 0; }
 }
+
+.btn {
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid #333333;
+}
